@@ -3,8 +3,10 @@ Golang bits to string converter
 
 # Install
 
-  go get -u github.com/moisespsena-go/bits2str/...
-  
+```bash
+go get -u github.com/moisespsena-go/bits2str/...  
+```
+
 # Usage
 
 ```go
@@ -19,10 +21,14 @@ func main() {
 
 # CLI
 
-  bits2str 1024
-  
-  or
-  
-  echo '1024
-  4
-  4200' | bits2str
+```bash
+bits2str 1024
+```
+
+or...
+
+```bash
+echo '1024
+4
+4200' | bits2str
+```
